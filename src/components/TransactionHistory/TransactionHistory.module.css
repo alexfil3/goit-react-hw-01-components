@@ -1,0 +1,26 @@
+.transactionhistory {
+    border: 2px solid goldenrod;
+    border-radius: 20px;
+    width: 800px;
+    background-color: bisque;
+    border-spacing: 0;
+}
+
+.type {
+    font-size: 30px;
+}
+
+.names:not(:last-child) {
+  border-right: 2px solid goldenrod;
+  padding: 20px;
+}
+
+.border {
+  border-top: 2px solid goldenrod;
+  padding: 20px;
+  text-align: center;
+}
+
+.border:not(:nth-child(3n)) {
+  border-right: 2px solid goldenrod;
+}
