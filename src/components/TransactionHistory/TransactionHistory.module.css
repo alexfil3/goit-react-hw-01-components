@@ -4,6 +4,7 @@
     width: 800px;
     background-color: bisque;
     border-spacing: 0;
+    font-size: 20px;
 }
 
 .transaction:not(:nth-child(2n)) {
