@@ -6,6 +6,10 @@
     border-spacing: 0;
 }
 
+.transaction:not(:nth-child(2n)) {
+  background-color: gainsboro;
+}
+
 .type {
     font-size: 30px;
 }
